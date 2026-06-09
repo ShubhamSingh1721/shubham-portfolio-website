@@ -502,7 +502,7 @@ features: [
           Shubham
         </h1>
         <div className="text-xl sm:text-2xl text-gray-300 font-light">
-          Fullstack Developer & Digital Marketing Learner
+          Fullstack Developer & Digital Marketing Enthusiast
         </div>
       </div>
       
