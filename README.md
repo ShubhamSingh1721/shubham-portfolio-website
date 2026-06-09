@@ -55,8 +55,8 @@ SSAC Institute
 ## Connect With Me
 
 - GitHub: https://github.com/ShubhamSingh1721
-- LinkedIn: Add Your LinkedIn Profile
-- Email: Add Your Email
+- LinkedIn: https://www.linkedin.com/in/shubham-singh-0365442b3/
+- Email: shubhamsinghyadav0890@gmail.com
 
 ---
 
