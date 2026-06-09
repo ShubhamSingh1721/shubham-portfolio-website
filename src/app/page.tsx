@@ -129,16 +129,16 @@ export default function FuturisticPortfolio() {
 
   // Resume Download
   const handleResumeDownload = () => {
-    window.open("/resume.pdf", "_blank");
+    window.open("/Shubham_Digital.pdf", "_blank");
   };
 
   const skills = [
-    { name: "Backend Development", icon: Server, color: "from-cyan-400 to-blue-600", glowColor: "shadow-cyan-500/50" },
-    { name: "Frontend Development", icon: Terminal, color: "from-green-400 to-emerald-600", glowColor: "shadow-green-500/50" },
-    { name: "API Integration and Development", icon: Globe, color: "from-purple-400 to-pink-600", glowColor: "shadow-purple-500/50" },
-    { name: "Database Managment", icon: Database, color: "from-orange-400 to-red-600", glowColor: "shadow-orange-500/50" },
-    { name: "Data Integration", icon: Layers, color: "from-indigo-400 to-purple-600", glowColor: "shadow-indigo-500/50" },
-    { name: "UI/UX", icon: Cloud, color: "from-teal-400 to-cyan-600", glowColor: "shadow-teal-500/50" },
+    { name: "Web Development", icon: Server, color: "from-cyan-400 to-blue-600", glowColor: "shadow-cyan-500/50" },
+    { name: "Digital Marketing", icon: Terminal, color: "from-green-400 to-emerald-600", glowColor: "shadow-green-500/50" },
+    { name: "SEO", icon: Globe, color: "from-purple-400 to-pink-600", glowColor: "shadow-purple-500/50" },
+    { name: "Meta Ads", icon: Database, color: "from-orange-400 to-red-600", glowColor: "shadow-orange-500/50" },
+    { name: "Business Development", icon: Layers, color: "from-indigo-400 to-purple-600", glowColor: "shadow-indigo-500/50" },
+    { name: "Lead Generation", icon: Cloud, color: "from-teal-400 to-cyan-600", glowColor: "shadow-teal-500/50" },
   ]
 
 
@@ -210,102 +210,150 @@ export default function FuturisticPortfolio() {
       bgColor: "bg-purple-500/20"
     },
     {
-      name: "Python",
-      logo: "https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/python.svg",
-      color: "text-yellow-400",
-      bgColor: "bg-yellow-500/20"
-    }
+  name: "Canva",
+  logo: "https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/canva.svg",
+  color: "text-cyan-400",
+  bgColor: "bg-cyan-500/20"
+},
+{
+  name: "Google Search Console",
+  logo: "https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/google.svg",
+  color: "text-blue-400",
+  bgColor: "bg-blue-500/20"
+},
+{
+  name: "Google Analytics",
+  logo: "https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/googleanalytics.svg",
+  color: "text-orange-400",
+  bgColor: "bg-orange-500/20"
+},
+{
+  name: "Meta Ads",
+  logo: "https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/meta.svg",
+  color: "text-blue-400",
+  bgColor: "bg-blue-500/20"
+},
+{
+  name: "Microsoft Excel",
+  logo: "https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/microsoftexcel.svg",
+  color: "text-green-400",
+  bgColor: "bg-green-500/20"
+},
+{
+  name: "HubSpot CRM",
+  logo: "https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/hubspot.svg",
+  color: "text-orange-400",
+  bgColor: "bg-orange-500/20"
+}
+    
   ]
 
 
-  const projects: Project[] = [
-    {
-      id: 1,
-      title: "AI Study Planner",
-      description:
-        "A Full Stack AI-powered study planner project that helps students organize their learning schedules and track progress.",
-      longDescription:
-        "An intelligent study planning tool that uses AI to recommend optimal study schedules based on user goals, available time, and learning preferences. It helps students stay organized and make the most of their study time.",
-      tech: ["Node.js", "React", "Tailwind CSS", "Lucide React", "MongoDB", "Express.js", "JavaScript"],
-      githubUrl: "https://github.com/ayushbhardwaj683/AI-Study-Planner",
-      features: [
-        "Instantly converts PDF syllabus files into structured, actionable weekly roadmaps using Gemini AI.",
-        "Customizes study plans based on your daily availability and target completion deadline to ensure you finish on time.",
-        "Visualizes your performance with interactive dashboards and detailed analytics",
-        "Provides dynamic AI-driven feedback",
-      ],
-    },
-    {
-      id: 2,
-      title: "E-com API",
-      description:
-        "A backend e-commerce API built with Node.js and Express, providing secure endpoints for managing products, users, orders, and authentication.",
-      longDescription:
-        "A scalable and secure e-commerce backend API built using Node.js and Express. It supports authentication, product management, order processing, and role-based access control using JWT.",
-      tech: ["Node.js", "Express.js", "MongoDB", "JWT", "Socket.io"],
-      githubUrl: "https://github.com/ayushbhardwaj683/ECOM-API",
-      features: [
-        "Product catalog management",
-        "Order processing",
-        "JWT authentication",
-        "Role-based access control",
-        "Inventory tracking",
-        "Secure API endpoints",
-      ],
-    },
-    {
-      id: 3,
-      title: "My Portfolio",
-      description:
-        "My personal portfolio website showcasing my skills, projects, and experience as a full-stack developer.",
-      longDescription:
-        "A modern and responsive personal portfolio website built with Next.js and Tailwind CSS. It highlights my skills, projects, and experience as a full-stack developer, with smooth animations and an interactive design.",
-      tech: ["Next.js", "Tailwind CSS", "TypeScript", "ESLint", "Framer Motion",],
-      githubUrl: "https://github.com/ayushbhardwaj683/Ayush-s-Portfolio",
-      features: [
-        "Explains my skills and expertise",
-        "Showcases my projects and experience",
-        "Responsive design for all devices",
-        "Interactive UI with animations",
-        "Fast loading and optimized performance",
-      ],
-    },
-    {
-      id: 4,
-      title: "Chat Application",
-      description:
-        "A full-stack, real-time messaging application built to replicate the core functionalities and UI/UX of WhatsApp Web",
-      longDescription:
-        "A real-time chat application built with Next.js and Convex, designed to replicate the core functionalities and user experience of WhatsApp Web. It features instant messaging, group chats, and a sleek, responsive design.",
-      tech: ["Next.js", "Tailwind CSS", "React", "Convex(serverless)", "Clerk(Auth)"],
-      githubUrl: "https://github.com/ayushbhardwaj683/chat-application-web",
-      features: [
-        "Real-Time Database: Powered by Convex, messages appear instantly across clients without needing a browser refresh.",
-        "Typing Indicators: Real-time \"typing...\" status appears when the other user is typing and auto-clears after 2 seconds of inactivity",
-        "Group Chats: Create groups with multiple members, custom names, and view member counts in the sidebar",
-        
-      ],
-    },
-    {
-      id: 5,
-      title: "AI Assistant",
-      description:
-        "A full-stack AI-powered study assistant that transforms YouTube videos and PDF documents into interactive learning experiences",
-      longDescription:
-        "An AI-powered study assistant that converts YouTube videos and PDF documents into interactive learning experiences. It provides features like  generate flashcards, quizzes, and chat with the material using a Retrieval-Augmented Generation (RAG) pipeline.",
-      tech: ["Next.js", "Tailwind CSS", "React", "FAST Api's", "Python","Supabase"],
-      githubUrl: "https://github.com/ayushbhardwaj683/ai-assistant",
-      features: [
-        "User Authentication",
-        "Multimodal Input",
-        "Vector Search (RAG)",
-        "AI Chat Tutoring",
-        "Flashcard Generation",
-        "Quiz Creation",
-        
-      ],
-    },
-  ];
+ const projects: Project[] = [
+{
+id: 1,
+title: "SalaryScope",
+description:
+"A SaaS-style payroll analytics platform that processes salary PDFs and extracts structured salary data using AI-powered analysis.",
+longDescription:
+"Built a payroll analytics platform that processes salary PDFs and extracts structured information using Gemini AI. Implemented salary breakdown analysis, deductions calculation, authentication, responsive dashboards and secure backend workflows.",
+tech: [
+"Next.js",
+"React.js",
+"TypeScript",
+"Node.js",
+"MongoDB",
+"Gemini API",
+],
+githubUrl: "https://github.com/ShubhamSingh1721/salaryscope",
+features: [
+"AI-powered salary PDF processing",
+"Salary breakdown and deduction analysis",
+"Responsive dashboard interface",
+"Secure authentication system",
+"Payroll analytics and reporting",
+"Modern SaaS-style architecture",
+],
+},
+
+{
+id: 2,
+title: "DSA Buddy",
+description:
+"An AI-powered LeetCode Hint Assistant that helps users solve coding problems through guided hints without revealing complete solutions.",
+longDescription:
+"Developed a Chrome Extension that integrates with LeetCode and provides contextual AI-powered hints. The project focuses on improving problem-solving skills while avoiding direct solution exposure.",
+tech: [
+"JavaScript",
+"Node.js",
+"HTML",
+"CSS",
+"Chrome Extension",
+],
+githubUrl: "https://lnkd.in/etZRSFmG",
+features: [
+"AI-powered contextual hints",
+"LeetCode integration",
+"Guided problem solving",
+"Distraction-free learning experience",
+"Beginner to advanced support",
+"Improved DSA learning workflow",
+],
+},
+
+{
+id: 3,
+title: "Youthopia 2024 Website",
+description:
+"Official DIT University fest website developed using React.js with responsive design and modern user experience.",
+longDescription:
+"Contributed to the development of the official Youthopia 2024 website for DIT University. Worked on responsive UI development, About Us section implementation and maintained theme consistency while collaborating with the team using Git and GitHub.",
+tech: [
+"React.js",
+"HTML",
+"CSS",
+"Git",
+"GitHub",
+],
+githubUrl: "https://youthopia.dituniversity.co.in/",
+features: [
+"Responsive web design",
+"React.js development",
+"Production-ready deployment",
+"Team collaboration using Git",
+"Modern UI implementation",
+"University fest website development",
+],
+},
+
+{
+id: 4,
+title: "Meta Ads & SEO Learning Project",
+description:
+"A hands-on digital marketing project focused on Meta Ads campaign creation, audience targeting, keyword research and SEO learning.",
+longDescription:
+"Created and configured a complete Meta Ads Traffic Campaign using Meta Ads Manager. Designed ad creatives using Canva, explored audience targeting, campaign objectives, ad placements and performed keyword research and backlink prospecting exercises for SEO learning.",
+tech: [
+"Meta Ads",
+"Canva",
+"SEO",
+"Keyword Research",
+"Backlink Research",
+"Content Marketing",
+],
+githubUrl:
+"https://medium.com/@shubhamsinghyadav0890/my-first-meta-ads-campaign-a-hands-on-digital-marketing-learning-project-b722daeb4b58",
+features: [
+"Meta Ads campaign setup",
+"Audience targeting and placements",
+"Canva ad creative design",
+"Keyword research exercises",
+"Backlink prospecting activities",
+"Published Medium case study",
+],
+},
+];
+
 
 
 
@@ -414,7 +462,7 @@ export default function FuturisticPortfolio() {
         <div className="max-w-7xl mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
             <div className="text-2xl font-bold bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent">
-              Ayush&apos;s Portfolio
+              Shubham&apos;s Portfolio
             </div>
             <div className="hidden md:flex items-center space-x-8">
               {["about", "skills", "projects", "contact"].map((section) => (
@@ -444,51 +492,6 @@ export default function FuturisticPortfolio() {
         </div>
       </nav>
 
-      {/* About me  */}
-      {/* <section id="about" className="min-h-screen flex items-center pt-20 pb-20 px-6 relative z-10">
-        <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
-          <div className={`space-y-8 transition-all duration-1000 ${isVisible ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-10"
-            }`}>
-            <div className="space-y-4">
-
-              <h1 className="text-6xl lg:text-8xl font-bold bg-gradient-to-r from-teal-500 via-cyan-500 to-indigo-600 bg-clip-text text-transparent leading-tight">
-                AYUSH
-              </h1>
-              <div className="text-2xl text-gray-300 font-light">
-                Fullstack Developer
-              </div>
-            </div>
-            <div className="w-24 h-1 bg-gradient-to-r from-cyan-400 to-purple-400 rounded-full"></div>
-            <div className="space-y-6 text-gray-300 text-lg leading-relaxed max-w-2xl">
-              <p >
-                I&apos;m someone who learns best by doing — quietly building, experimenting, and digging deeper than what&apos;s immediately visible.
-              </p>
-              <p>
-                I&apos;m drawn to systems that are elegant in their logic, solutions that genuinely solve problems, and challenges that demand more than a quick fix. I find joy in connecting the dots — between ideas, technologies, and people.
-              </p>
-              <p>
-                Over time, I&apos;ve developed expertise in backend development and full-stack engineering — areas where building reliable, thoughtful infrastructure matters just as much as the interface users see.
-              </p>
-            </div>
-          </div>
-          <div className={`relative transition-all duration-1000 delay-500 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
-            }`}>
-            {<div className="relative w-96 h-96 mx-auto">
-              <div className="absolute inset-0 bg-gradient-to-r from-cyan-500/20 to-purple-500/20 rounded-full blur-3xl animate-pulse"></div>
-              <div className="relative w-80 h-80 mx-auto rounded-full overflow-hidden border-4 border-cyan-400/40 shadow-xl">
-
-                <img
-                  src="/ayush.png"
-                  alt="Ayush Bhardwaj"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <div className="absolute -top-4 -right-4 w-8 h-8 bg-cyan-400 rounded-full animate-bounce"></div>
-              <div className="absolute -bottom-4 -left-4 w-6 h-6 bg-purple-400 rounded-full animate-bounce delay-300"></div>
-            </div>}
-          </div>
-        </div>
-      </section> */}
 <section id="about" className="min-h-screen flex items-center pt-20 pb-20 px-4 sm:px-6 relative z-10">
   <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
     
@@ -496,27 +499,31 @@ export default function FuturisticPortfolio() {
     <div className={`space-y-6 md:space-y-8 transition-all duration-1000 ${isVisible ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-10"}`}>
       <div className="space-y-2 md:space-y-4 text-center lg:text-left">
         <h1 className="text-5xl sm:text-6xl lg:text-8xl font-bold bg-gradient-to-r from-teal-500 via-cyan-500 to-indigo-600 bg-clip-text text-transparent leading-tight">
-          AYUSH
+          Shubham
         </h1>
         <div className="text-xl sm:text-2xl text-gray-300 font-light">
-          Fullstack Developer
+          Fullstack Developer & Digital Marketing Learner
         </div>
       </div>
       
       {/* Decorative Line - centered on mobile, left on desktop */}
       <div className="w-16 sm:w-24 h-1 bg-gradient-to-r from-cyan-400 to-purple-400 rounded-full mx-auto lg:mx-0"></div>
       
-      <div className="space-y-4 sm:space-y-6 text-gray-300 text-base sm:text-lg leading-relaxed max-w-2xl text-center lg:text-left">
-        <p>
-          I&apos;m someone who learns best by doing — quietly building, experimenting, and digging deeper than what&apos;s immediately visible.
-        </p>
-        <p>
-          I&apos;m drawn to systems that are elegant in their logic, solutions that genuinely solve problems, and challenges that demand more than a quick fix. I find joy in connecting the dots — between ideas, technologies, and people.
-        </p>
-        <p>
-          Over time, I&apos;ve developed expertise in backend development and full-stack engineering — areas where building reliable, thoughtful infrastructure matters just as much as the interface users see.
-        </p>
-      </div>
+     <div className="space-y-4 sm:space-y-6 text-gray-300 text-base sm:text-lg leading-relaxed max-w-2xl text-center lg:text-left">
+
+  <p>
+    I am passionate about technology and enjoy building websites, learning new tools, and solving real-world problems through practical projects. My journey started with web development, where I worked on projects using HTML, CSS, JavaScript and modern development concepts.
+  </p>
+
+  <p>
+    Currently, I am working as a Business Development Executive at SSAC Institute, where I am involved in lead generation, client communication, market research and relationship building. This role has helped me improve my communication, problem-solving and professional skills.
+  </p>
+
+  <p>
+    Alongside my professional work, I am actively learning Digital Marketing, SEO and Meta Ads through hands-on projects and practical implementation. My goal is to build a strong combination of technical, business and marketing skills while continuously growing as a professional.
+  </p>
+
+</div>
     </div>
 
     {/* Image Content */}
@@ -528,8 +535,8 @@ export default function FuturisticPortfolio() {
         {/* Inner image scales accordingly */}
         <div className="relative w-56 h-56 sm:w-72 sm:h-72 md:w-80 md:h-80 mx-auto rounded-full overflow-hidden border-4 border-cyan-400/40 shadow-xl">
           <img
-            src="/ayush.png"
-            alt="Ayush Bhardwaj"
+            src="/r.png"
+            alt="Shubham Singh"
             className="w-full h-full object-cover"
           />
         </div>
@@ -543,11 +550,174 @@ export default function FuturisticPortfolio() {
   </div>
 </section>
 
+
+
+
+<section id="experience" className="py-24 px-6 relative z-10">
+  <div className="max-w-7xl mx-auto">
+
+    <h2 className="text-5xl font-bold mb-16 bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent">
+      Experience
+    </h2>
+
+    <div className="group">
+      <div className="bg-gradient-to-br from-gray-900/50 to-black/50 border border-cyan-500/20 hover:border-cyan-500/50 transition-all duration-500 rounded-3xl p-8 backdrop-blur-sm hover:shadow-2xl hover:shadow-cyan-500/10">
+
+        <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-6">
+          <div>
+            <h3 className="text-3xl font-bold text-white mb-2">
+              Software Developer Intern
+            </h3>
+
+           <a
+  href="https://ekovits.com"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="text-cyan-400 text-lg font-semibold hover:text-cyan-300 transition-colors duration-300"
+>
+  Ekovits Consulting LLP
+</a>
+
+            <p className="text-gray-400 mt-2">
+              Jan 2026 - Apr 2026 • Remote
+            </p>
+          </div>
+
+          <div className="mt-4 md:mt-0">
+            <a
+              href="https://sortedcv.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-5 py-3 rounded-full border border-cyan-500/40 text-cyan-400 hover:bg-cyan-500/20 transition-all duration-300"
+            >
+              View SortedCV
+            </a>
+          </div>
+        </div>
+
+        <div className="space-y-4 text-gray-300 leading-relaxed">
+
+          <p>
+            • Built and developed SortedCV.com (Job Portal Platform), contributing extensively to both frontend and backend development.
+          </p>
+
+          <p>
+            • Designed responsive UI components, dashboards, forms and integrated backend services to improve user experience and platform functionality.
+          </p>
+
+          <p>
+            • Worked with REST APIs, authentication systems, profile management and job listing workflows.
+          </p>
+
+          <p>
+            • Collaborated on live client projects including a Tour & Travel Website, contributing to website customization, UI improvements and bug fixing.
+          </p>
+
+          <p>
+            • Gained practical exposure to full-stack development workflows, debugging, version control and software deployment processes.
+          </p>
+
+          <p>
+            • Worked closely with team members to understand project requirements and deliver scalable, user-friendly solutions within deadlines.
+          </p>
+
+        </div>
+
+      </div>
+    </div>
+
+  {/* </div>
+</section> */}
+
+
+
+{/* <section id="experience" className="py-24 px-6 relative z-10">
+  <div className="max-w-7xl mx-auto">
+
+    */}
+<div className="group mt-10">
+    <div className="group">
+      <div className="bg-gradient-to-br from-gray-900/50 to-black/50 border border-cyan-500/20 hover:border-cyan-500/50 transition-all duration-500 rounded-3xl p-8 backdrop-blur-sm hover:shadow-2xl hover:shadow-cyan-500/10">
+
+        <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-6">
+          <div>
+            <h3 className="text-3xl font-bold text-white mb-2">
+               Business Development Executive
+            </h3>
+
+              <a
+          href="https://www.ssacinstitute.in/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-cyan-400 text-lg font-semibold hover:text-cyan-300 hover:underline transition-colors duration-300"
+        >
+          SSAC Institute
+        </a>
+
+            <p className="text-gray-400 mt-2">
+          Present • On-site
+        </p>
+          </div>
+
+        <div className="mt-4 md:mt-0">
+        <a
+          href="https://www.ssacinstitute.in/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="px-5 py-3 rounded-full border border-cyan-500/40 text-cyan-400 hover:bg-cyan-500/20 transition-all duration-300"
+        >
+          Visit Website
+        </a>
+      </div>
+        </div>
+
+        <div className="space-y-4 text-gray-300 leading-relaxed">
+
+           <p>
+        • Generate and qualify leads through calls, follow-ups and outreach activities to support business growth.
+      </p>
+
+      <p>
+        • Guide prospective students by explaining courses, training programs and career opportunities.
+      </p>
+
+      <p>
+        • Manage lead data, communication records and follow-up activities using CRM tools and spreadsheets.
+      </p>
+
+      <p>
+        • Coordinate with students and internal teams to ensure smooth communication and query resolution.
+      </p>
+
+      <p>
+        • Conduct market research and competitor analysis to identify new opportunities and improve outreach strategies.
+      </p>
+
+      <p>
+        • Build strong relationships with prospects through effective communication and continuous engagement.
+      </p>
+        </div>
+
+      </div>
+    </div>
+</div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
       {/* Technical  Section */}
       <section id="skills" className="py-32 px-6 relative z-10">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-5xl font-bold mb-20 bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent">
-            Technical Expertise
+            Professional Skills & Expertise
           </h2>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-20">
@@ -700,13 +870,13 @@ export default function FuturisticPortfolio() {
       <div className="bg-gradient-to-br from-gray-900/50 to-black/50 rounded-2xl p-6 md:p-8 border border-cyan-500/20 hover:border-cyan-500/50 transition-all duration-300 backdrop-blur-sm">
         <Mail className="w-8 h-8 md:w-12 md:h-12 text-cyan-400 mx-auto mb-4" />
         <h3 className="text-lg md:text-xl font-semibold text-white mb-2">Email</h3>
-        <p className="text-sm md:text-base text-gray-300 break-all">ayush406bhardwaj@gmail.com</p>
+        <p className="text-sm md:text-base text-gray-300 break-all">shubhamsinghyadav0890@gmail.com</p>
       </div>
 
       <div className="bg-gradient-to-br from-gray-900/50 to-black/50 rounded-2xl p-6 md:p-8 border border-purple-500/20 hover:border-purple-500/50 transition-all duration-300 backdrop-blur-sm">
         <Github className="w-8 h-8 md:w-12 md:h-12 text-purple-400 mx-auto mb-4" />
         <h3 className="text-lg md:text-xl font-semibold text-white mb-2">GitHub</h3>
-        <p className="text-sm md:text-base text-gray-300">@ayushbhardwaj683</p>
+        <p className="text-sm md:text-base text-gray-300">@ShubhamSingh1721</p>
       </div>
 
       <div className="bg-gradient-to-br from-gray-900/50 to-black/50 rounded-2xl p-6 md:p-8 border border-pink-500/20 hover:border-pink-500/50 transition-all duration-300 backdrop-blur-sm sm:col-span-2 md:col-span-1">
@@ -719,7 +889,7 @@ export default function FuturisticPortfolio() {
     {/* Socials Container */}
     <div className="flex flex-wrap justify-center gap-3 md:gap-0 md:space-x-6">
       <a
-        href="https://github.com/ayushbhardwaj683"
+        href="https://github.com/ShubhamSingh1721"
         target="_blank"
         rel="noopener noreferrer"
         className="p-3 md:p-4 rounded-full bg-gradient-to-r from-gray-800 to-gray-700 hover:from-cyan-500 hover:to-blue-600 transition-all duration-300 hover:scale-110 shadow-lg hover:shadow-cyan-500/25"
@@ -728,7 +898,7 @@ export default function FuturisticPortfolio() {
       </a>
 
       <a
-        href="https://www.linkedin.com/in/ayush-bhardwaj-1b0215254/"
+        href="https://www.linkedin.com/in/shubham-singh-0365442b3/"
         target="_blank"
         rel="noopener noreferrer"
         className="p-3 md:p-4 rounded-full bg-gradient-to-r from-gray-800 to-gray-700 hover:from-blue-500 hover:to-blue-600 transition-all duration-300 hover:scale-110 shadow-lg hover:shadow-blue-500/25"
@@ -737,7 +907,7 @@ export default function FuturisticPortfolio() {
       </a>
 
       <a
-        href="https://x.com/bhardwaj683"
+        href="https://x.com/ShubhamSin48264"
         target="_blank"
         rel="noopener noreferrer"
         className="p-3 md:p-4 rounded-full bg-gradient-to-r from-gray-800 to-gray-700 hover:from-purple-500 hover:to-pink-600 transition-all duration-300 hover:scale-110 shadow-lg hover:shadow-purple-500/25"
@@ -746,7 +916,7 @@ export default function FuturisticPortfolio() {
       </a>
 
       <a
-        href="https://leetcode.com/u/bhardwaj683/"
+        href="https://leetcode.com/u/yaduvanshi172/"
         target="_blank"
         rel="noopener noreferrer"
         className="p-3 md:p-4 rounded-full bg-gradient-to-r from-gray-800 to-gray-700 hover:from-orange-500 hover:to-red-600 transition-all duration-300 hover:scale-110 shadow-lg hover:shadow-orange-500/25"
@@ -755,7 +925,7 @@ export default function FuturisticPortfolio() {
       </a>
 
       <a
-        href="mailto:ayush406bhardwaj@gmail.com"
+        href="mailto:shubhamsinghyadav0890@gmail.com"
         className="p-3 md:p-4 rounded-full bg-gradient-to-r from-gray-800 to-gray-700 hover:from-green-500 hover:to-emerald-600 transition-all duration-300 hover:scale-110 shadow-lg hover:shadow-green-500/25"
       >
         <Mail className="w-5 h-5 md:w-6 md:h-6 text-white" />
@@ -775,7 +945,7 @@ export default function FuturisticPortfolio() {
       <footer className="py-12 px-6 border-t border-gray-700/50 bg-black/20 backdrop-blur-sm relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           <p className="text-gray-400">
-            © 2024 Ayush Bhardwaj.
+            © 2024 Shubham Singh.
           </p>
         </div>
       </footer>
