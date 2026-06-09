@@ -585,12 +585,12 @@ features: [
 
           <div className="mt-4 md:mt-0">
             <a
-              href="https://sortedcv.com"
+              href="https://ekovits.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="px-5 py-3 rounded-full border border-cyan-500/40 text-cyan-400 hover:bg-cyan-500/20 transition-all duration-300"
             >
-              View SortedCV
+              Visit Website
             </a>
           </div>
         </div>
