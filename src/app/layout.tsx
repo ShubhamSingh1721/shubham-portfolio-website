@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Shubham Singh | Full Stack Developer & Digital Marketing Learner",
+  title: "Shubham Singh | Fullstack Developer & Digital Marketing Enthusiast",
     description:
     "Portfolio of Shubham Singh showcasing web development projects, digital marketing skills, SEO learning, internships and professional experience.",
 };
